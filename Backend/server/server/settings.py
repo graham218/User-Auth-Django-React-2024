@@ -64,6 +64,8 @@ REST_FRAMEWORK = {
     ),
 }
 
+# AUTH_USER_MODEL = 'userauth.CustomUser'
+
 ROOT_URLCONF = 'server.urls'
 
 TEMPLATES = [
